@@ -138,4 +138,4 @@ const pan = (lng,lat) => {
 
   view.animate({ center: location, duration: duration,zoom:18 })
 }
-setTimeout(() => mark(), 500)
+setTimeout(() => mark(), 800)
