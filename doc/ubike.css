@@ -1,7 +1,42 @@
+body{
+padding: 0;
+margin: 0;    
+}
+.menu{
+    width: 40%;
+    padding: 10px;
+    background: #ccc;
+    height: auto;
+
+    
+}
 .stationBlock{
     border: 1px solid #000;
     margin: 8px;
+    width: 50%;
+   
+  
+    
+}
+#searchResultBlock{
+    padding: 0px;
+    width: 100%;
+    height: 89vh;
+    overflow: scroll;
+    
 }
 .stationtext{
-    padding: 5px
+    padding: 5px;
+   
+ 
+}
+.map {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0
+  }
+.mapret{
+    position: relative;
 }
